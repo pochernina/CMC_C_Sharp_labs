@@ -110,7 +110,7 @@
             <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Height="21" Width="120" Margin="68,18,0,0" ><Run Text="Выберите функцию:"/></TextBlock>
         </Grid>
 
-        <Label Content="VMTime:" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Top" Height="29" Width="181" Target="{Binding ElementName=istBoxL, Mode=OneWay}"/>
-        <Label Content="VMAccuracy:" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Top" Height="29" Width="181" Target="{Binding ElementName=listBoxR, Mode=OneWay}"/>
+        <Label Content="VMTime:" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Top" Height="29" Width="181" Target="{Binding ElementName=ListBoxTime, Mode=OneWay}"/>
+        <Label Content="VMAccuracy:" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Top" Height="29" Width="181" Target="{Binding ElementName=ListBoxAccuracy, Mode=OneWay}"/>
     </Grid>
 </Window>
