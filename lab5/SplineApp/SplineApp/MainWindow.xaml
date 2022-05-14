@@ -126,7 +126,7 @@
                 </TextBox.Text>
             </TextBox>
             
-            <TextBlock x:Name="tblock_ken2_copy" HorizontalAlignment="Center" Margin="0,113,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="16"><Run Text="Число узлов равномерной сетки"/></TextBlock>
+            <TextBlock x:Name="tblock_len2_copy" HorizontalAlignment="Center" Margin="0,113,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="16"><Run Text="Число узлов равномерной сетки"/></TextBlock>
             
             <TextBox x:Name="tbox_len2_copy" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="172" Height="18" Margin="0,134,0,0">
                 <Binding Path="data.input_data.uniform_len" RelativeSource="{RelativeSource FindAncestor, AncestorType={x:Type DoubleConverter:MainWindow}}" Converter="{StaticResource IntConverter}">
@@ -146,8 +146,8 @@
             </lvc:CartesianChart.AxisX>
         </lvc:CartesianChart>
         
-        <TextBlock x:Name="tb_integral1" HorizontalAlignment="Center" Grid.Row="2" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="24" Width="180" Margin="0,4,0,0"/>
-        <TextBlock x:Name="tb_integral2" HorizontalAlignment="Center" Grid.Row="3" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Margin="0,4,0,0" Height="24"/>
+        <TextBlock x:Name="tb_integral1" HorizontalAlignment="Center" Grid.Row="2" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="24" Width="200" Margin="0,4,0,0"/>
+        <TextBlock x:Name="tb_integral2" HorizontalAlignment="Center" Grid.Row="3" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Margin="0,4,0,0" Height="24"/>
         <TextBlock x:Name="tb_deriv_first" Grid.Column="2" HorizontalAlignment="Left" Margin="10,5,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="22"/>
         <TextBlock x:Name="tb_deriv_second" Grid.Column="2" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Center" Width="500" Height="22"/>
         <TextBlock x:Name="tb_spline1" HorizontalAlignment="Center" Grid.Row="2" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Height="24" Width="164" Grid.Column="1"/>

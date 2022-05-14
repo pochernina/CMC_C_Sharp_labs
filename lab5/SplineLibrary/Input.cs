@@ -114,7 +114,7 @@ namespace SplineLibrary
                         break;
                     case "begin":
                     case "end":
-                        if (end < begin)
+                        if ((end < begin) || (begin > x1) || (end < x3))
                         {
                             error = "borders";
                             error1 = true;

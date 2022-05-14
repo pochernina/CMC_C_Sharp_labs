@@ -10,7 +10,7 @@ namespace SplineApp
 
         public ViewData()
         {
-            input_data = new(25, 250, 0, 35, SPf.random, 1, 7, 19);
+            input_data = new(25, 250, 0, 35, SPf.random, 1, 17, 34);
             input_data.error1 = false;
             input_data.error2 = false;
             splines_data = new(new(input_data), new(input_data));
