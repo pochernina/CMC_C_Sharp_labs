@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplineApp", "SplineApp\SplineApp.csproj", "{511F19F6-2D3D-4819-8570-6284ECAA1D48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplineLibrary", "..\SplineLibrary\SplineLibrary.csproj", "{288B1941-7593-4093-893B-DE9F7AAFEB7B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SplineDll", "..\SplineDll\SplineDll.vcxproj", "{527E7A26-31E5-425B-82FD-E95667E629BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{511F19F6-2D3D-4819-8570-6284ECAA1D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511F19F6-2D3D-4819-8570-6284ECAA1D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511F19F6-2D3D-4819-8570-6284ECAA1D48}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{511F19F6-2D3D-4819-8570-6284ECAA1D48}.Debug|x64.Build.0 = Debug|Any CPU
+		{511F19F6-2D3D-4819-8570-6284ECAA1D48}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{511F19F6-2D3D-4819-8570-6284ECAA1D48}.Debug|x86.Build.0 = Debug|Any CPU
+		{511F19F6-2D3D-4819-8570-6284ECAA1D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511F19F6-2D3D-4819-8570-6284ECAA1D48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511F19F6-2D3D-4819-8570-6284ECAA1D48}.Release|x64.ActiveCfg = Release|Any CPU
+		{511F19F6-2D3D-4819-8570-6284ECAA1D48}.Release|x64.Build.0 = Release|Any CPU
+		{511F19F6-2D3D-4819-8570-6284ECAA1D48}.Release|x86.ActiveCfg = Release|Any CPU
+		{511F19F6-2D3D-4819-8570-6284ECAA1D48}.Release|x86.Build.0 = Release|Any CPU
+		{288B1941-7593-4093-893B-DE9F7AAFEB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288B1941-7593-4093-893B-DE9F7AAFEB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288B1941-7593-4093-893B-DE9F7AAFEB7B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{288B1941-7593-4093-893B-DE9F7AAFEB7B}.Debug|x64.Build.0 = Debug|Any CPU
+		{288B1941-7593-4093-893B-DE9F7AAFEB7B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{288B1941-7593-4093-893B-DE9F7AAFEB7B}.Debug|x86.Build.0 = Debug|Any CPU
+		{288B1941-7593-4093-893B-DE9F7AAFEB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288B1941-7593-4093-893B-DE9F7AAFEB7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{288B1941-7593-4093-893B-DE9F7AAFEB7B}.Release|x64.ActiveCfg = Release|Any CPU
+		{288B1941-7593-4093-893B-DE9F7AAFEB7B}.Release|x64.Build.0 = Release|Any CPU
+		{288B1941-7593-4093-893B-DE9F7AAFEB7B}.Release|x86.ActiveCfg = Release|Any CPU
+		{288B1941-7593-4093-893B-DE9F7AAFEB7B}.Release|x86.Build.0 = Release|Any CPU
+		{527E7A26-31E5-425B-82FD-E95667E629BC}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{527E7A26-31E5-425B-82FD-E95667E629BC}.Debug|Any CPU.Build.0 = Debug|x64
+		{527E7A26-31E5-425B-82FD-E95667E629BC}.Debug|x64.ActiveCfg = Debug|x64
+		{527E7A26-31E5-425B-82FD-E95667E629BC}.Debug|x64.Build.0 = Debug|x64
+		{527E7A26-31E5-425B-82FD-E95667E629BC}.Debug|x86.ActiveCfg = Debug|Win32
+		{527E7A26-31E5-425B-82FD-E95667E629BC}.Debug|x86.Build.0 = Debug|Win32
+		{527E7A26-31E5-425B-82FD-E95667E629BC}.Release|Any CPU.ActiveCfg = Release|x64
+		{527E7A26-31E5-425B-82FD-E95667E629BC}.Release|Any CPU.Build.0 = Release|x64
+		{527E7A26-31E5-425B-82FD-E95667E629BC}.Release|x64.ActiveCfg = Release|x64
+		{527E7A26-31E5-425B-82FD-E95667E629BC}.Release|x64.Build.0 = Release|x64
+		{527E7A26-31E5-425B-82FD-E95667E629BC}.Release|x86.ActiveCfg = Release|Win32
+		{527E7A26-31E5-425B-82FD-E95667E629BC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF03A87F-923E-4B5C-A534-18F649995644}
+	EndGlobalSection
+EndGlobal
